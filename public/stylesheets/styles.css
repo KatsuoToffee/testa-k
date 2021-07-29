@@ -33,7 +33,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-black: #000;
-  --bs-white: #fff;
+  --bs-white: rgb(10, 145, 37);
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(31, 201, 102, 0.15), rgba(255, 255, 255, 0));
@@ -11184,6 +11184,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background-color: #054821;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11203,7 +11204,7 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #ffffff;
     border-width: 0.25rem;
     width: 30%;
   }
